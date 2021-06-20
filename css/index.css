@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+section .row .text {
+  height: 100vh;
+  padding: 10%;
+}
+
+section .row .text h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  color: #000000;
+}
+
+section .row .text h4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #000000;
+}
+
+section .row .text h5 {
+  color: red;
+}
+
+section .row .img {
+  height: 100vh;
+  background: url(../img/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media screen and (min-width: 200px) and (max-height: 750px) {
+  section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+/*# sourceMappingURL=index.css.map */
